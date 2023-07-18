@@ -11,3 +11,5 @@ cd /etc/
 rm -rf danted.conf
 wget https://raw.githubusercontent.com/itsmejeeban/oneclickdante/main/danted.conf
 systemctl start danted
+systemctl status danted
+
